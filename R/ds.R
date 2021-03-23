@@ -18,5 +18,6 @@ ds <- function(x) {
              max = max(x),
              sd = sd(x),
              var = var(x),
+             sqrt = sqrt(x),
              range = max(x) - min(x))
 }
