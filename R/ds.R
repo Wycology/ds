@@ -17,5 +17,6 @@ ds <- function(x) {
              mean = mean(x),
              max = max(x),
             sd = sd(x),
+             var = var(x),
             range = max(x) - min(x))
 }
