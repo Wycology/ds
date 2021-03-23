@@ -11,7 +11,7 @@ ds <- function(x) {
   # Boxplot
   boxplot(x, col = 'green')
   # Density plot
-  density(x, col = 'red')
+  density(x)
   par(mfrow = c(1, 1))
   # Numeric summary
   data.frame(min = min(x),
