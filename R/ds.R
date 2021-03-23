@@ -5,11 +5,13 @@
 
 ds <- function(x) {
   # specify 1 row and 2 columns
-  par(mfrow = c(1, 2))
+  par(mfrow = c(2, 2))
   # Histogram
   hist(x, col = rainbow(30))
   # Boxplot
   boxplot(x, col = 'green')
+  # Density plot
+  density(x, col = 'red')
   par(mfrow = c(1, 1))
   # Numeric summary
   data.frame(min = min(x),
