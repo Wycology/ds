@@ -13,7 +13,7 @@ ds <- function(x) {
   # Density plot
   plot(density(x))
   par(mfrow = c(1, 1))
-  # Some of the Numeric summary of the package
+  # Some of the numeric summary of the package
   data.frame(min = min(x),
              median = median(x),
              mean = mean(x),
