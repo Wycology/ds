@@ -4,7 +4,7 @@
 
 
 ds <- function(x) {
-  # specify 1 row and 2 columns
+  # specify 1 row and 2 columns for
   par(mfrow = c(2, 2))
   # Histogram
   hist(x, col = rainbow(30))
