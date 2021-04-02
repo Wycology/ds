@@ -6,7 +6,7 @@
 ds <- function(x) {
   # specify 1 row and 2 columns for the plots involved
   par(mfrow = c(2, 2))
-  # Histogram
+  # Histogram plot
   hist(x, col = rainbow(30))
   # Boxplot
   boxplot(x, col = 'green')
