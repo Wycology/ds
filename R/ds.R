@@ -10,7 +10,7 @@ ds <- function(x) {
   hist(x, col = rainbow(30))
   # Boxplot plot
   boxplot(x, col = 'green')
-  # Density plot generation
+  # Density plot generation code
   plot(density(x))
   par(mfrow = c(1, 1))
   # Some of the numeric summaries of the package
