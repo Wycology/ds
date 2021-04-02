@@ -8,7 +8,7 @@ ds <- function(x) {
   par(mfrow = c(2, 2))
   # Histogram plot
   hist(x, col = rainbow(30))
-  # Boxplot
+  # Boxplot plot
   boxplot(x, col = 'green')
   # Density plot
   plot(density(x))
